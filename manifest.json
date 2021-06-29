@@ -1,0 +1,1052 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/BrightChain/BrightChain/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Attributes.BrightChainMetadataAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Attributes.BrightChainMetadataAttribute.html",
+          "hash": "JnrQnf6ru3JViI7gh2frsyagXPHQa65X41ib7I9G274="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Attributes.html",
+          "hash": "DeniZLsSFeivWDkYazgyBezeoRMBSodzPmpHJYXWQF8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Connections.ApplicationReadDbConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Connections.ApplicationReadDbConnection.html",
+          "hash": "E2h+VwiNcq7HAA5dfNwwMdesauMiwJk8EaZOrqm9XRo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Connections.ApplicationWriteDbConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Connections.ApplicationWriteDbConnection.html",
+          "hash": "zUHT9FNq9j052H4iN+u+8QHgw8NibybZLqX2OAz6Yfc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Connections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Connections.html",
+          "hash": "6imFruSUcffPqTzhqOw1SOj+1NACTotzcxL5SxUkFGg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Contexts.ApplicationDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Contexts.ApplicationDbContext.html",
+          "hash": "3rYy6qVFpn1Xo58FDI6/ZhA4wzby6rUVK2fKLJ/4/Kg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Contexts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Contexts.html",
+          "hash": "vfgywx1KCERrCnxpJOflHo/xgu+udQOrWDe0IyelDYM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Data.Entities.Base.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Data.Entities.Base.html",
+          "hash": "nQL/R5ZcTvEEXyp5P2MYa8I5zYwyabxV9cjLH1X1y+I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Data.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Data.Entities.html",
+          "hash": "ZekffKoftTqZJFB+Ti752jXutjtueRJ28swOtHVRMMw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Enumerations.BlockSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Enumerations.BlockSize.html",
+          "hash": "H7dqmnpwSN7AO33cdPMYI+u1HZ+1ZOn0V0x3P/RwXes="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Enumerations.RedundancyContractType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Enumerations.RedundancyContractType.html",
+          "hash": "twcwRlgku1Q6M5WpofrwYH7/xf5fwv43FMzfEjdPOTg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Enumerations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Enumerations.html",
+          "hash": "wbNQeF2A6WMzJEbcD/smyf6ORrLKfS1b8sfLFPxmuDg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Exceptions.BrightChainException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Exceptions.BrightChainException.html",
+          "hash": "Xr2nDH4IBPsXuDW5boZNbRQ85bjFhAyzphYNedSIPVo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Exceptions.BrightChainValidationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Exceptions.BrightChainValidationException.html",
+          "hash": "fc8HLSx2VB+NP6BGENty9jZlbDPUIKkv2AvBhRC419M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Exceptions.html",
+          "hash": "yc8MeNQdU+KoqWPSQt3NQ9tCnYTbYNnlXRbg9RHNDCE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Extensions.BlockMetadataExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Extensions.BlockMetadataExtensions.html",
+          "hash": "xAMpVSGLUNyFZxQMt96M0tTXRuDGbaBfCWw8wpYVidM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Extensions.BlockValidationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Extensions.BlockValidationExtensions.html",
+          "hash": "bytTuBTTUvkRzFamGrLXoUEIxW+YKQtgqUk0BJZPch4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Extensions.html",
+          "hash": "s4E7MO4sXyElpn6oI1ggeFR+3PECMvPGsopfemmKG78="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Factories.BlockFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Factories.BlockFactory.html",
+          "hash": "c89FasZTTYTr7MeftIv6MUcjsApe6GkaBFFSpBmj2lk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Factories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Factories.html",
+          "hash": "OxTXfpWTX/boPElekb69RvPiRfSr5GcnWPhCYrharB0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Helpers.BlockHashSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Helpers.BlockHashSerializer.html",
+          "hash": "mVH1Puy2vfOru1F6Nyztwr0A1B5yDkiTp5uXJgo+pdI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Helpers.BlockSerializer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Helpers.BlockSerializer-1.html",
+          "hash": "puJjqJ1e/5gShxVX/zrZgYAf10t1qis6q1QWwOS5q/Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Helpers.Crc32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Helpers.Crc32.html",
+          "hash": "bT5ES5yCPgbv3QdqbgG1dOnu/A5wgbWiFd/YAy4Y6l8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Helpers.MemoryComparer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Helpers.MemoryComparer-1.html",
+          "hash": "3Y+9fWJchl2lvalDibQN/quWcGQRR0/bqU112rLcICI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Helpers.ReadOnlyMemoryComparer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Helpers.ReadOnlyMemoryComparer-1.html",
+          "hash": "EkpxE6j7kNwDzDD11qWZ8hyFfIoKVNvPDhxP+N/24zg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Helpers.html",
+          "hash": "k0K024xQB1/ZuQeIzxlTSGL6iwAQwVgVdnOm62nqLzw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Interfaces.IApplicationDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Interfaces.IApplicationDbContext.html",
+          "hash": "f3NoyRINIqlz+i5D8QT9R9UJnlZVAOZvh1HI1aHuE2g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Interfaces.IApplicationReadDbConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Interfaces.IApplicationReadDbConnection.html",
+          "hash": "YWrfSazhwCj5TV+/rl96qmRz+Nv106iqEgzA1fecr9U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Interfaces.IApplicationWriteDbConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Interfaces.IApplicationWriteDbConnection.html",
+          "hash": "j8Q4oYjz8SyDrhou/rMqh+UmgdsveELAuHOuJjLPZkk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Interfaces.IBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Interfaces.IBlock.html",
+          "hash": "1Ifu7Z3y6/zpLnw6LhB1S+LTCVu+D1uj7tHKsTh2tL8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Interfaces.IBlockHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Interfaces.IBlockHash.html",
+          "hash": "gBGByoZkuTNDQFYexH1LCdYMqX8/Y2iHTawMPlktsKA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Interfaces.ICacheManager-2.CacheMissEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Interfaces.ICacheManager-2.CacheMissEventHandler.html",
+          "hash": "7coaZJCt6/FFUnKdK13GBQHtl/U8748nxB3SpAG4/fY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Interfaces.ICacheManager-2.KeyAddedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Interfaces.ICacheManager-2.KeyAddedEventHandler.html",
+          "hash": "YKCxitOInk5lffuPRPm2wrRCLyRN3pdZs6jz7rvgjCs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Interfaces.ICacheManager-2.KeyRemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Interfaces.ICacheManager-2.KeyRemovedEventHandler.html",
+          "hash": "OA4Z/WLmi0frr/Lk3BmvnhjS5VUg72sN35G0C9UQ+b8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Interfaces.ICacheManager-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Interfaces.ICacheManager-2.html",
+          "hash": "aj4H0noQutwIbox4qkHwK7TD+WM1H0pwkfyz7Iq3eFk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Interfaces.ISerializer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Interfaces.ISerializer-1.html",
+          "hash": "MwZYlnLOvcCAeOF6XZY83PrhNEV77hsswxHVj2cZy+Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Interfaces.ITransactable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Interfaces.ITransactable.html",
+          "hash": "PxTmUi6egjraKihPzmT1y7TJ3SzPoe3eZUdHreg/GKo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Interfaces.ITransactableBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Interfaces.ITransactableBlock.html",
+          "hash": "jmUsQQ8cPkm8LSYXPOnLImJq6XQ39oWsLI0/gtlGId0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Interfaces.IValidatable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Interfaces.IValidatable.html",
+          "hash": "35iCMq+aw6A4fEXz39OMP26x2RXVobLNSiXF9+y6r8c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Interfaces.html",
+          "hash": "ZfldeYPOfzdo23SzhUfy0yJ8l/izU15/CMp6qSHcGqY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Blocks.Block.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Blocks.Block.html",
+          "hash": "zHGAGzOeLeSM0+AkiS1sPrgN9k5cgD7bkZHLFQ1wwUE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Blocks.BlockHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Blocks.BlockHash.html",
+          "hash": "O+dGQTGAfF+W/TIgFIoki7VCNjjJlguObrIer6UTUzY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Blocks.BlockSizeMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Blocks.BlockSizeMap.html",
+          "hash": "+9qiRhjwtIntRKPNiZxXFTJ+7hZu0XIPhGu6rSGdhhM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Blocks.Chains.BlockChainFileMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Blocks.Chains.BlockChainFileMap.html",
+          "hash": "G7qoxYPExb67Xr9E+TOollfv2cZ81o9LrhqaEOUOXHg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Blocks.Chains.ConstituentBlockListBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Blocks.Chains.ConstituentBlockListBlock.html",
+          "hash": "0pumVZUJZM6kKGuB2sro4bKC2Ol9aXfMSHBfwVjbnJ8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Blocks.Chains.TupleStripe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Blocks.Chains.TupleStripe.html",
+          "hash": "afu4PX1oRo2//8zzN0N9Y5rS294xHLthw0FqOlko4C8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Blocks.Chains.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Blocks.Chains.html",
+          "hash": "b/lQ5+ABesfpEGUDs0wUcQ6w/oJ8qQljyHUCtROXDz8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Blocks.DiskBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Blocks.DiskBlock.html",
+          "hash": "Qw1ulQ1LHghrl0kvIp+dXa2L175cuc6NViK8u+Mm8xs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Blocks.HashOnlyBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Blocks.HashOnlyBlock.html",
+          "hash": "r4ArY09xcY7OIhebCwjjWo+2MuIckoSkJCPvh5sQC5M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Blocks.MemoryBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Blocks.MemoryBlock.html",
+          "hash": "2udWMTNs7C+cQrEpejRYLo/HGiJ96hhUvRTJjSUnhG0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Blocks.RandomizerBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Blocks.RandomizerBlock.html",
+          "hash": "kZlGlpIrxkjtgUF/S8oGNhqNdsEYsVIM60PFRrJHZ8s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Blocks.RestoredBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Blocks.RestoredBlock.html",
+          "hash": "rIC6hD0q8jkgtK3BzAKiPkRqILkFvPi5jW7fvHgVNHE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Blocks.SourceBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Blocks.SourceBlock.html",
+          "hash": "a9qNEB1FoYOhUG0cGukBGHh50/MCUabugbvV9CI03pw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Blocks.TransactableBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Blocks.TransactableBlock.html",
+          "hash": "t/yiHmpna5lg6HCUd9oos1e9w9DjLRNP3BJE+llWAiE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Blocks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Blocks.html",
+          "hash": "9yhDCQ95l1ZVQZu9KMm7F/G1RvlDtDQfWa6xdJLLabY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Contracts.RedundancyContract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Contracts.RedundancyContract.html",
+          "hash": "TkIKddPLJ+fDBOphWbQeMzAp4mSqpIUbs52AhiSF91Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Contracts.StorageDurationContract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Contracts.StorageDurationContract.html",
+          "hash": "NArzOQoW9IDVYBTSGHPUPInABt4jishTFxGmbW0+n+M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Contracts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Contracts.html",
+          "hash": "RLLPenftD1cv1LnethIyiqsU6Z0IjDhCMcFEuEci0Ww="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Entities.Agent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Entities.Agent.html",
+          "hash": "i6VfLvHe8XbhIodLlc0S8jkpLoAJpuny979/POtyzvQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Entities.html",
+          "hash": "RtIXQjy9RYPtgv3OgxfCvNyFixxX0exRihqb4ENYOdw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Events.BlockEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Events.BlockEventArgs.html",
+          "hash": "D/6teLBck1XiDpVPvkSmXy/ghCXccUHtBAmC0/Js+7M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Events.CacheEventArgs-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Events.CacheEventArgs-2.html",
+          "hash": "uCTxxBDEzTA06pajCXtH35icuIkUQuGocB1yLIZ3u4Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Events.html",
+          "hash": "EcYg8KevMKIfXlzolSkdBW5tSoDtXFix4fx8V17HUxY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Units.ByteStorageDuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Units.ByteStorageDuration.html",
+          "hash": "UjBHYE86KdqPTSCyT2j7GLh2iA37Q5cbwuCIuqZk1CQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Units.ByteStorageRedundancyDuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Units.ByteStorageRedundancyDuration.html",
+          "hash": "8mhqlY33HqC4amQ5gcNxq6C4/7EGrj7vOqoJQK/dh/U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Units.ByteStorageRedundancyDurationCostMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Units.ByteStorageRedundancyDurationCostMap.html",
+          "hash": "J+jAaHp8saDg50GWbtGDTxsUoH6M8dnkMAG+AjSIJps="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Models.Units.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Models.Units.html",
+          "hash": "pzfk31ExNJS5IY+6n4Jnk/ZHSQUJGa6R30QBk3WFx6w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Services.BlockCacheExpirationCache-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Services.BlockCacheExpirationCache-4.html",
+          "hash": "oNiaixo0SeyEr15X4QYsPQfy95wkam3h9ttZAWc8R/o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Services.BlockCacheManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Services.BlockCacheManager.html",
+          "hash": "7jycT63hAlZZ5U4F5vum2KzuGENG6VTrJ65Ju2q+vAo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Services.BlockWhitener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Services.BlockWhitener.html",
+          "hash": "LcqxC4Sq+IuoedpBYwhWa1wv5dDjm5oxmh44pGtu6mA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Services.BrightBlockService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Services.BrightBlockService.html",
+          "hash": "mPh9nGcquOUD2ejcGcu7s/yHwE8YOiKtdDTLMOFAQdw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Services.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Services.DependencyInjection.html",
+          "hash": "iMY6hRGs2tSM/rLuOEc71z/anAZyuj/bLx4mFZrJvTY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Services.DiskBlockCacheManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Services.DiskBlockCacheManager.html",
+          "hash": "Huk+RuJLcfNGQCBNSHAWToiM/oGAh94p4i5dGo4Isk0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Services.MemoryBlockCacheManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Services.MemoryBlockCacheManager.html",
+          "hash": "5EMFy+eSy+TWjcOhlc4HiY+HvPGgAXtfVtrxYoKq+8I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BrightChain.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BrightChain.Services.html",
+          "hash": "ZJsNno3Dc33sWZQ+eKoPaeHmU54PwcNgDOixhxfvnKI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "48ycotsxDFLT66EkfZwMn3Sj1jFSfOpCPjbvIWghU3M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "WQImM9EnrBSQLEkEV/3IZ+xbesKriYPPdu5tzohAxp0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/LICENSE.html",
+          "hash": "o9O6GD0vvhcpuYfTMHugAgyKL5SkuuX4JvTiQ8NtfaY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/README.html",
+          "hash": "7bM2phyzRojrYiaXJA2kLoi9usY/9mLC2YWg4a6yOi4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "Vgoy2qu8jNlk2obAx5DyrttFDKGqjEwZgOBd5Wut17Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "AqeSS1t0yClU9U/Ky5ECf4EUnST95Ios19ncvKCD6Lw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "S3rOfa1k1gxw0kDHVOEZ7nd9DJyBLBNjuND22zR/Zbw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Be9iqTbT11q/W5JnPjNcl7Wnb+O36tEvhEq4T1iMkDs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 75,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
