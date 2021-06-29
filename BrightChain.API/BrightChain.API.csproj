@@ -19,7 +19,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BrightChain\BrightChain.csproj" />
-    <ProjectReference Include="..\FileContextCore\FileContextCore\FileContextCore.csproj" />
   </ItemGroup>
 
 </Project>
