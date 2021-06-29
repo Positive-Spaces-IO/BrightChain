@@ -1,8 +1,6 @@
 ﻿#nullable enable
-using BrightChain.Connections;
-using BrightChain.Contexts;
 using BrightChain.Exceptions;
-using BrightChain.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -26,7 +24,9 @@ namespace BrightChain.Services
         {
             this.logger = logger.CreateLogger(nameof(BrightBlockService));
             if (this.logger is null)
+            {
                 throw new BrightChainException("CreateLogger failed");
+            }
 
             this.logger.LogInformation(String.Format("<{0}>: logging initialized", nameof(BrightBlockService)));
             this.configuration = configuration;
@@ -39,19 +39,19 @@ namespace BrightChain.Services
             //services.AddDbContext<ApplicationDbContext>(options =>
             //    options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
             //);
-            services.AddDbContext<ApplicationDbContext>();
-            services.AddScoped<IApplicationDbContext>(provider =>
+            services.AddPersistence(this.configuration);
+            #region API Versioning
+            // Add API Versioning to the Project
+            services.AddApiVersioning(config =>
             {
-                var dbContext = provider.GetService<ApplicationDbContext>();
-                if (dbContext is null)
-                {
-                    throw new BrightChainException("could not obtain db context");
-                }
-
-                return dbContext;
+                // Specify the default API Version as 1.0
+                config.DefaultApiVersion = new ApiVersion(1, 0);
+                // If the client hasn't specified the API version in the request, use the default API version number 
+                config.AssumeDefaultVersionWhenUnspecified = true;
+                // Advertise the API versions supported for the particular endpoint
+                config.ReportApiVersions = true;
             });
-            services.AddScoped<IApplicationWriteDbConnection, ApplicationWriteDbConnection>();
-            services.AddScoped<IApplicationReadDbConnection, ApplicationReadDbConnection>();
+            #endregion
         }
 
         public IDisposable BeginScope<TState>(TState state) => this.logger.BeginScope(state);
