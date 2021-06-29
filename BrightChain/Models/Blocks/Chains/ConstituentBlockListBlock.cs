@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace BrightChain.Models.Blocks
+namespace BrightChain.Models.Blocks.Chains
 {
     /// <summary>
     /// A block which describes the hashes of all of the blocks needed to reconstitute a resultant block.
