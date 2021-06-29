@@ -1,4 +1,7 @@
-﻿using BrightChain.Enumerations;
+﻿using BrightChain.Attributes;
+using BrightChain.Enumerations;
+using BrightChain.Interfaces;
+using BrightChain.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,28 +11,36 @@ namespace BrightChain.Models.Blocks
     /// <summary>
     /// A block which describes the hashes of all of the blocks needed to reconstitute a resultant block.
     /// TODO: Ensure that the resultant list doesn't exceed a block, split into two lists, make a new top block, etc.
+    /// TODO: Ensure that the hash of the source file
+    /// TODO: Validate constituent blocks can recompose into that data (break up by tuple size), validate all blocks are same length
     /// </summary>
-    public class ConstituentBlockListBlock : Block
+    public class ConstituentBlockListBlock : SourceBlock, IBlock, IDisposable, IValidatable
     {
-        public new readonly IEnumerable<Block> ConstituentBlocks;
-        private readonly Block sourceBlock;
+        /// <summary>
+        /// Hash of the sum bytes of the file when assembled in order
+        /// </summary>
+        [BrightChainMetadata]
+        public BlockHash SourceId { get; }
 
-        public ConstituentBlockListBlock(DateTime requestTime, DateTime keepUntilAtLeast, RedundancyContractType redundancy) :
-            base(requestTime: requestTime, keepUntilAtLeast: keepUntilAtLeast, redundancy: redundancy, data: new byte[] { })
+        /// <summary>
+        /// TupleCount at the time
+        /// </summary>
+        [BrightChainMetadata]
+        public int TupleCount { get; } = BlockWhitener.TupleCount;
+
+        public ConstituentBlockListBlock(ICacheManager<BlockHash, TransactableBlock> cacheManager, BlockSize blockSize, DateTime requestTime, DateTime keepUntilAtLeast, RedundancyContractType redundancy, BlockHash finalDataHash, IEnumerable<Block> constituentBlocks, bool allowCommit)
+        : base(destinationCacheManager: cacheManager,
+              blockSize: blockSize,
+              data: new ReadOnlyMemory<byte>(
+                constituentBlocks
+                    .SelectMany(b =>
+                        b.Id.HashBytes.ToArray())
+                    .ToArray()))
         {
-            this.sourceBlock = null;
+            this.AllowCommit = allowCommit;
             this.ConstituentBlocks = new Block[] { };
-        }
-
-        public ConstituentBlockListBlock(Block sourceBlock) :
-            base(
-                requestTime: sourceBlock.StorageContract.RequestTime,
-                keepUntilAtLeast: sourceBlock.StorageContract.KeepUntilAtLeast,
-                redundancy: sourceBlock.RedundancyContract.RedundancyContractType,
-                data: sourceBlock.Data)
-        {
-            this.sourceBlock = sourceBlock;
-            this.ConstituentBlocks = sourceBlock.ConstituentBlocks;
+            this.SourceId = finalDataHash;
+            // TODO : if finalDataHash is null, reconstitute and compute- or accept the validation result's hash essentially?
         }
 
         public IEnumerable<BlockHash> ConstituentBlockHashes =>
@@ -37,23 +48,11 @@ namespace BrightChain.Models.Blocks
                 .Select(b => b.Id)
                     .ToArray();
 
-        public new ReadOnlyMemory<byte> Data =>
-            new ReadOnlyMemory<byte>(
-                this.ConstituentBlocks
-                    .SelectMany(b =>
-                        b.Id.HashBytes.ToArray())
-                    .ToArray());
-
         public double TotalCost =>
             this.ConstituentBlocks.Sum(b => b.RedundancyContract.Cost);
 
-        public override void Dispose()
-        {
-        }
-
-        public override Block NewBlock(DateTime requestTime, DateTime keepUntilAtLeast, RedundancyContractType redundancy, ReadOnlyMemory<byte> data, bool allowCommit) => (this.sourceBlock is null) ?
-this.sourceBlock.NewBlock(requestTime: requestTime, keepUntilAtLeast: keepUntilAtLeast, redundancy: redundancy, data: data, allowCommit: allowCommit)
-:
-throw new NullReferenceException(nameof(this.sourceBlock));
+        public new bool Validate() =>
+            // TODO: perform additional validation as described above
+            base.Validate();
     }
 }

@@ -1,9 +1,10 @@
 ﻿#nullable enable
+using BrightChain.Connections;
+using BrightChain.Contexts;
 using BrightChain.Exceptions;
-using BrightChain.Helpers;
-using BrightChain.Models.Blocks;
-using CSharpTest.Net.Collections;
+using BrightChain.Interfaces;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System;
 
@@ -20,24 +21,37 @@ namespace BrightChain.Services
         protected MemoryBlockCacheManager blockMemoryCache;
         protected DiskBlockCacheManager blockDiskCache;
 
-        public static BPlusTree<BlockHash, TransactableBlock>.OptionsV2 DefaultOptions() => new BPlusTree<BlockHash, TransactableBlock>.OptionsV2(
-keySerializer: new BlockHashSerializer(),
-valueSerializer: new BlockSerializer<TransactableBlock>());
 
         public BrightBlockService(ILoggerFactory logger, IConfiguration configuration)
         {
             this.logger = logger.CreateLogger(nameof(BrightBlockService));
             if (this.logger is null)
-            {
                 throw new BrightChainException("CreateLogger failed");
-            }
 
             this.logger.LogInformation(String.Format("<{0}>: logging initialized", nameof(BrightBlockService)));
             this.configuration = configuration;
 
             this.blockMemoryCache = new MemoryBlockCacheManager(logger: this.logger);
-            this.blockDiskCache = new DiskBlockCacheManager(logger: this.logger, optionsV2: DefaultOptions());
+            this.blockDiskCache = new DiskBlockCacheManager(logger: this.logger);
             this.logger.LogInformation(String.Format("<{0}>: caches initialized", nameof(BrightBlockService)));
+
+            var services = new ServiceCollection();
+            //services.AddDbContext<ApplicationDbContext>(options =>
+            //    options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
+            //);
+            services.AddDbContext<ApplicationDbContext>();
+            services.AddScoped<IApplicationDbContext>(provider =>
+            {
+                var dbContext = provider.GetService<ApplicationDbContext>();
+                if (dbContext is null)
+                {
+                    throw new BrightChainException("could not obtain db context");
+                }
+
+                return dbContext;
+            });
+            services.AddScoped<IApplicationWriteDbConnection, ApplicationWriteDbConnection>();
+            services.AddScoped<IApplicationReadDbConnection, ApplicationReadDbConnection>();
         }
 
         public IDisposable BeginScope<TState>(TState state) => this.logger.BeginScope(state);
